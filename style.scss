@@ -1,0 +1,59 @@
+// import font
+
+
+
+// @font-face {
+//   font-family: 'martin gothic medium';
+//   src: url('../fonts/martin-gothic-medium.eot');
+//   src: url('../fonts/martin-gothic-medium.eot?#iefix') format('embedded-opentype'), 
+//   url('../fonts/martin-gothic-medium.woff') format('woff')
+// }
+
+// @font-face {
+//   font-family: 'martin gothic light';
+//   src: url('../fonts/martin-gothic-light.eot');
+//   src: url('../fonts/martin-gothic-light.eot?#iefix') format('embedded-opentype'), 
+//   url('../fonts/martin-gothic-light.woff') format('woff')
+// }
+
+body {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: 400;
+  color: #483D3D;
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden;
+  background: url(../img/bg.jpg);
+  -webkit-font-smoothing: antialiased;
+
+
+}
+
+body,
+html {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal;
+  -webkit-font-kerning: normal;
+  -moz-font-kerning: normal;
+}
+
+body {
+    //background: url(../_images/6a.jpg);
+    // -webkit-touch-callout: none;
+    // -webkit-user-select: none;
+    // -khtml-user-select: none;
+    // -moz-user-select: none;
+    // -ms-user-select: none;
+    // user-select: none
+  }
+h1{
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0;
+  padding: 20px;
+}

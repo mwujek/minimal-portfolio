@@ -1,0 +1,27 @@
+body {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: 400;
+  color: #483D3D;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: url(../img/bg.jpg);
+  -webkit-font-smoothing: antialiased; }
+
+body,
+html {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal;
+  -webkit-font-kerning: normal;
+  -moz-font-kerning: normal; }
+
+h1 {
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0;
+  padding: 20px; }
