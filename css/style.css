@@ -1,7 +1,7 @@
 body {
   font-family: "ff-dagny-web-pro", sans-serif;
   font-weight: 400;
-  color: #483D3D;
+  color: #333;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
@@ -21,7 +21,36 @@ html {
   -moz-font-kerning: normal; }
 
 h1 {
-  font-size: 80px;
+  font-size: 30px;
   font-weight: 100;
-  margin: 0;
-  padding: 20px; }
+  margin: 0 auto;
+  padding: 10px; }
+
+select {
+  margin: 30px; }
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
+
+.el {
+  height: 230px;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 31%; }
+  .el .image {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 6px; }
+  .el h2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0; }
+
+@media (max-width: 800px) {
+  .el {
+    width: 100%; } }
